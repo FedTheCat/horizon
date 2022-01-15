@@ -411,6 +411,7 @@
 	message = "screams!"
 	emote_type = EMOTE_AUDIBLE
 	vary = TRUE
+	sound_volume = 40
 	sound = 'sound/voice/cat_scream.ogg'
 
 /datum/emote/living/scowl
@@ -966,6 +967,42 @@
 	vary = TRUE
 	sound = 'sound/voice/bark2.ogg'
 
+/datum/emote/living/whine
+	key = "whine"
+	message = "whines!"
+	emote_type = EMOTE_AUDIBLE
+	vary = TRUE
+	sound = 'sound/voice/whine1.ogg'
+
+/datum/emote/living/whine2
+	key = "whine2"
+	message = "whines!"
+	emote_type = EMOTE_AUDIBLE
+	vary = TRUE
+	sound = 'sound/voice/whine2.ogg'
+
+/datum/emote/living/yelp
+	key = "yelp"
+	message = "yelps!"
+	emote_type = EMOTE_AUDIBLE
+	vary = TRUE
+	sound = 'sound/voice/yelp1.ogg'
+
+/datum/emote/living/yelp2
+	key = "yelp2"
+	message = "yelps!"
+	emote_type = EMOTE_AUDIBLE
+	vary = TRUE
+	sound = 'sound/voice/yelp2.ogg'
+
+/datum/emote/living/rawr
+	key = "rawr"
+	key_third_person = "rawrs"
+	message = "rawrs!"
+	emote_type = EMOTE_AUDIBLE
+	vary = TRUE
+	sound = 'sound/voice/rawr.ogg'
+
 /datum/emote/living/squish
 	key = "squish"
 	key_third_person = "squishes"
@@ -997,6 +1034,13 @@
 	emote_type = EMOTE_AUDIBLE
 	vary = TRUE
 	sound = 'sound/voice/feline_hiss.ogg'
+
+/datum/emote/living/catchirp
+	key = "catchirp"
+	message = "chirps!"
+	emote_type = EMOTE_AUDIBLE
+	vary = TRUE
+	sound = 'sound/voice/catchirp.ogg'
 
 /datum/emote/living/hiss
 	key = "hiss"
