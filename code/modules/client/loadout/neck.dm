@@ -5,7 +5,6 @@
 /datum/loadout_item/neck/headphones
 	path = /obj/item/clothing/ears/headphones
 
-
 /datum/loadout_item/neck/goldnecklace
 	path = /obj/item/clothing/neck/necklace/dope
 	cost = 3
@@ -42,6 +41,9 @@
 
 /datum/loadout_item/neck/beads
 	path = /obj/item/clothing/neck/beads
+
+/datum/loadout_item/neck/goldchain
+	path = /obj/item/clothing/neck/goldchain
 
 //SCARVES
 /datum/loadout_item/neck/scarf

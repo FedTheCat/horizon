@@ -402,3 +402,11 @@
 	name = "tailored shroud"
 	greyscale_config = /datum/greyscale_config/tailored_cloak/shroud
 	greyscale_config_worn = /datum/greyscale_config/tailored_cloak_worn/shroud
+
+/obj/item/clothing/neck/goldchain
+	name = "goldchain"
+	desc = "A classic gold chain. Sleazy salesman must have."
+	icon = 'icons/horizon/obj/clothing/neck.dmi'
+	icon_state = "goldchain"
+	worn_icon = 'icons/mob/clothing/neck.dmi'
+	inhand_icon_state = "" //no inhands
